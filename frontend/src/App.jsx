@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import "./styles.css";
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
 const slides = [
   {
@@ -199,7 +199,7 @@ function WorkspacePage({ page, onOpenService, showNotice }) {
   const [weather, setWeather] = useState(null);
   const [weatherError, setWeatherError] = useState("");
   const [weatherLoading, setWeatherLoading] = useState(false);
-  const weatherApiUrl = import.meta.env.VITE_API_URL || "http://localhost:8000";
+  const weatherApiUrl = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
   useEffect(() => {
     if (page !== "Weather station") return undefined;

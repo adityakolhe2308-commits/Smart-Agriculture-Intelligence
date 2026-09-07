@@ -1,0 +1,11 @@
+
+> fieldly-frontend@1.0.0 dev
+> vite --host 127.0.0.1
+
+Re-optimizing dependencies because lockfile has changed
+
+  VITE v5.4.21  ready in 1731 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+2:53:43 pm [vite] hmr update /src/App.jsx
+2:56:37 pm [vite] hmr update /src/App.jsx
